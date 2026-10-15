@@ -9,7 +9,7 @@ from aiogram.filters import CommandStart
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_IDS = [int(x.strip())) for x in os.getenv("ADMIN_ID").split(",")]
+ADMIN_IDS = [int(x.strip()) for x in os.getenv("ADMIN_ID").split(",")]
 
 participants = [
     {"id": 101, "name": "Участник А", "photo": "https://picsum.photos/seed/a/600/400"},
