@@ -3,8 +3,6 @@ import os
 from aiohttp import web
 import sqlite3
 from dotenv import load_dotenv
-from aiohttp 
-import web
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from aiogram.filters import CommandStart
